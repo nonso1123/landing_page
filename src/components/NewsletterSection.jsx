@@ -41,7 +41,7 @@ const NewsletterSection = () => {
 						</motion.div>
 						<motion.div
 							variants={fadeIn("up", 0.6)}
-							className="flex flex-col sm:flex-row"
+							className="flex flex-col sm:flex-row gap-4 sm:gap-0 "
 						>
 							<motion.input
 								variants={fadeIn("right", 0.7)}
@@ -53,7 +53,7 @@ const NewsletterSection = () => {
 								variants={fadeIn("left", 0.7)}
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
-								className="w-full sm:w-auto cursor-pointer bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-l-none sm:rounded-r-lg flex items-center gap-2"
+								className="w-full sm:w-auto cursor-pointer  bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-l-none sm:rounded-r-lg flex items-center gap-2"
 							>
 								<span>Discover</span>
 								<HiArrowRight className="size-5" />
